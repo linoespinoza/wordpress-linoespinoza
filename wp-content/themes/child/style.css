@@ -1,0 +1,11 @@
+/*
+Theme Name: Twenty Thirteen Child
+Theme URI: http://http://wordpresstreehouse.com//
+Description: Child theme for the Twenty Thirteen theme
+Author: Zac Gordon
+Author URI: http://wp.zacgordon.com/
+Template: twentythirteen
+Version: 1.0
+*/
+
+@import "../twentythirteen/style.css";
