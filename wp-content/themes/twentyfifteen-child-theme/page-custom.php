@@ -17,9 +17,11 @@ get_header(); ?>
 				<div class="entry-content">
 
 					<?php
-
 						// The Query
 						$args = array(
+							//'author' => '2',
+							// 'tag' => '',
+							'category_name' => 'frontend',
 							'post_type' => 'post',
 							'order' => 'ASC',
 							'orderby' => 'title',
