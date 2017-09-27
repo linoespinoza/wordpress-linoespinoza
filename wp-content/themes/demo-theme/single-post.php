@@ -12,6 +12,8 @@ single-post.php
 	<h3>Contenido de la entrada: <?php echo the_title(); ?></h3>
 	<?php the_content(); ?>
 
+	<?php comments_template(); ?>
+
 <?php endwhile; endif; ?>
 <!-- Finaliza el LOOP -->
 

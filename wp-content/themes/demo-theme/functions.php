@@ -21,7 +21,7 @@ add_action( 'wp_enqueue_scripts', 'wpt_theme_js' );
 
 
 function create_post_type() {
-  register_post_type( 'acme_product',
+  register_post_type( 'product',
     array(
       'labels' => array(
         'name' => __( 'Products' ),
